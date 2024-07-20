@@ -1,0 +1,150 @@
+:root {
+  --main-bg-color: #1e202b;
+  --secondery-bg-color: #2d303d;
+  --secondery-bg-color-light: #323544;
+  --main-ws-color: #009ad8;
+}
+
+
+body,
+nav {
+  background: var(--main-bg-color);
+}
+
+
+.nav-item:hover {
+  border: 2px solid --main-ws-color;
+  border-radius: 30px;
+}
+.nav-item:hover .nav-link {
+  color: var(--main-ws-color);
+}
+input
+{
+  color: #009ad8;
+}
+
+.bgimg
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  background-image: url(../imgs/banner.png);
+  background-size: cover;
+  min-height: 350px;
+  background-position: left top right ;
+
+}
+#search
+{
+  height: 3rem;
+}
+#searchbtn
+{
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+input
+{
+  color: aliceblue !important;
+}
+
+::placeholder
+{
+  color: white !important;
+  opacity: .5 !important;
+}
+
+
+.tempreture
+{
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.tempreture span
+{
+  font-size: 3rem;
+  font-weight: 400;
+  position: relative;
+  bottom: 30px;
+}
+.weather-disc
+{
+  font-size: .7rem;
+}
+
+.tday-weather
+{
+min-height: 273px;
+background: var(--secondery-bg-color);
+  }
+
+  .day-weather
+{
+  background-color: var(--secondery-bg-color-light);
+}
+
+.one
+{
+  border-radius: 10px 0px 0px 0px;
+}
+.three
+{
+  border-radius: 0px 10px 0px 0px;
+}
+
+.tday-weather p span
+{
+  position: relative;
+  bottom: 15px;
+}
+
+footer
+{
+  background-color: var(--secondery-bg-color-light);
+}
+
+ul
+{
+  list-style: none;
+  display: flex;
+  
+  
+}
+
+.social-links li
+{
+  background: #1e202b;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.social-links li
+{
+  transition: all .1s ease-out;
+}
+.social-links li:hover
+{
+  background-color: #0DCAF0;
+}
+
+.social-links li a 
+{
+  color: #0DCAF0;
+}
+
+.social-links li:hover a 
+{
+  color: white;
+}
+
